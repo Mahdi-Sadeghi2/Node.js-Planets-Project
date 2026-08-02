@@ -28,6 +28,3 @@ fs.createReadStream('./kepler_data.csv').pipe(parse({
     }));
     console.log(`${habitablePlanets.length} habitable planet found!`);
 });
-
-
-// Parse the result of the stream. it's raw of buffers of bits
